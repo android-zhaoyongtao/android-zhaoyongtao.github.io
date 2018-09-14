@@ -99,21 +99,21 @@ transient Object[] elementData;真正的存储东西的元素数组. 长度会>=
 
 下面是ArrayList的增删改查方法里,☝两个关键数据的变化的情况
 
-   ## 1.增---public boolean add(E e)
+## 1.增---public boolean add(E e)
 
     `modCount++
     if (minCapacity - elementData.length > 0)`----如果新集合长度>现在数组长度 会`grow(minCapacity)`;
 
-   ## 2.删---remove(Object o)
+## 2.删---remove(Object o)
 
     `modCount++
     grow(minCapacity);`
 
-   ## 3. 改---set(int index, E element)
+## 3. 改---set(int index, E element)
 
     两个操作都没发生
 
-   ## 4.查---contains(Object o) ,indexOf(Object o)
+## 4.查---contains(Object o) ,indexOf(Object o)
 
     两个操作都没发生
 
