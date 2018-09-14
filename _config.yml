@@ -100,6 +100,9 @@ service-worker: true
 # Friends
 friends: [
     {
+        title: "DongDong",
+        href: "https://blog.zoudongq123.cn"
+    },{
         title: "Android Develops",
         href: "https://developer.android.com"
     },{
