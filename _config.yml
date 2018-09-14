@@ -2,7 +2,7 @@
 # 参考https://www.jianshu.com/p/e68fba58f75c#Rename
 title: ZYT Blog
 SEOTitle: 赵永涛的博客 | ZYT Blog
-header-img: img/post-bg-desk.jpg
+header-img: img/post-bg-hacker.jpg
 email: 285929232@qq.com
 description: "Strive for a better future."
 keyword: "ZYT, ZYT Blog, 赵永涛的博客, zhaoyongtao, 赵永涛, Android, google, Java"
@@ -12,7 +12,7 @@ github_repo: "https://github.com/android-zhaoyongtao/android-zhaoyongtao.github.
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
+sidebar-about-description: "******************************"
 sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -100,7 +100,7 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "DongDong",
+        title: "zdongの博客",
         href: "https://blog.zoudongq123.cn"
     },{
         title: "Android Develops",
