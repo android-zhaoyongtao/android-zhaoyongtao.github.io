@@ -1,9 +1,10 @@
 {
   "update": "Yes",
   "new_version": "1.0.1",
+  "version_code": 2,
   "apk_file_url": "https://raw.githubusercontent.com/android-zhaoyongtao/android-zhaoyongtao.github.io/master/update/queryprice1.0.1.apk",
   "update_log": "1，一一一一。\r\n2，二二二二。\r\n3，三三，三三。\r\n4，四四，四四。\r\n5，~~~~(>_<)~~~~。",
   "target_size": "3.8M",
   "new_md5":"7A4F6FD9B7A7C41E91A94F62DC5FA5FA",
-  "constraint": false
+  "constraint": true
 }
