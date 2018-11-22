@@ -1,9 +1,9 @@
 {
   "update": "Yes",
   "new_version": "1.0.1",
-  "apk_file_url": "https://raw.githubusercontent.com/android-zhaoyongtao/android-zhaoyongtao.github.io/master/update/queryprice1.0.0.apk",
-  "update_log": "1，添加删除信用卡接口。\r\n2，添加vip认证。\r\n3，区分自定义消费，一个小时不限制。\r\n4，添加放弃任务接口，小时内不生成。\r\n5，消费任务手动生成。",
+  "apk_file_url": "https://raw.githubusercontent.com/android-zhaoyongtao/android-zhaoyongtao.github.io/master/update/queryprice1.0.1.apk",
+  "update_log": "1，一一一一。\r\n2，二二二二。\r\n3，三三，三三。\r\n4，四四，四四。\r\n5，~~~~(>_<)~~~~。",
   "target_size": "3.8M",
-  "new_md5":"77122E340270D261268FBD2415C2159B",
+  "new_md5":"7A4F6FD9B7A7C41E91A94F62DC5FA5FA",
   "constraint": false
 }
