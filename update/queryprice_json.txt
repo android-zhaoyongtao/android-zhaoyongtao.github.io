@@ -6,6 +6,6 @@
   "apk_file_url": "https://raw.githubusercontent.com/android-zhaoyongtao/android-zhaoyongtao.github.io/master/update/queryprice1.0.3.apk",
   "update_log": "1，增加商城上方历史最低价弹框。\r\n2，修改字体大小。\r\n3，增加缓存。\r\n4，优化大量代码，增快应用速度。\r\n5，修改历史记录问题为空的问题。",
   "target_size": "3.3M",
-  "new_md5":"EF677BFAEAEB50167B8AF777E0F13563",
+  "new_md5":"8A46095F5A0AA3EED97D092CB518A15B",
   "constraint": false
 }
