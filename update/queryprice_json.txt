@@ -1,10 +1,11 @@
 {
+  "config_url": "",
   "update": "Yes",
-  "new_version": "1.0.2",
-  "version_code": 2,
-  "apk_file_url": "https://raw.githubusercontent.com/android-zhaoyongtao/android-zhaoyongtao.github.io/master/update/queryprice1.0.2.apk",
-  "update_log": "1，一一一一。\r\n2，二二二二。\r\n3，三三，三三。\r\n4，四四，四四。\r\n5，~~~~(>_<)~~~~。",
-  "target_size": "3.5M",
-  "new_md5":"FEFC3DF83D19CDB602F0A3839EE2FC5F",
+  "new_version": "1.0.3",
+  "version_code": 3,
+  "apk_file_url": "https://raw.githubusercontent.com/android-zhaoyongtao/android-zhaoyongtao.github.io/master/update/queryprice1.0.3.apk",
+  "update_log": "1，增加商城上方历史最低价弹框。\r\n2，修改字体大小。\r\n3，增加缓存。\r\n4，优化大量代码，增快应用速度。\r\n5，修改历史记录问题为空的问题。",
+  "target_size": "3.3M",
+  "new_md5":"EF677BFAEAEB50167B8AF777E0F13563",
   "constraint": false
 }
