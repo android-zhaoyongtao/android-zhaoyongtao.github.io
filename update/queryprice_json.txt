@@ -6,6 +6,6 @@
   "apk_file_url": "https://raw.githubusercontent.com/android-zhaoyongtao/android-zhaoyongtao.github.io/master/update/queryprice1.2.0.apk",
   "update_log": "1，重磅功能，增加优惠券搜索。\r\n2，美化应用主题。\r\n3，增加收藏功能。\r\n4，增加应用侧滑返回",
   "target_size": "3.1M",
-  "new_md5":"FDD321C1C9D93D0CA2C361AAA580AE04",
+  "new_md5":"F5497CE593A74FC3A3060DBA06A34417",
   "constraint": false
 }
