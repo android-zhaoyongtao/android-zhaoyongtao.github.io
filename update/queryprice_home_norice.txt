@@ -5,5 +5,5 @@
   "title": "我是title",
   "content": "我是content我是content我是content我是content",
   "url": "https://www.baidu.com",
-  "type": 1,
+  "type": 1
 }
