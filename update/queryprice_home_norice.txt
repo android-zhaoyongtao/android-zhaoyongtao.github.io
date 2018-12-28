@@ -1,0 +1,9 @@
+{
+  "is_show": true,
+  "notice_id": "2324",
+  "pic": "https://ws3.sinaimg.cn/large/006tNbRwly1fymf2niz65j31hc0u0dja.jpg",
+  "title": "我是title",
+  "content": "我是content我是content我是content我是content",
+  "url": "https://www.baidu.com",
+  "type": 1,
+}
