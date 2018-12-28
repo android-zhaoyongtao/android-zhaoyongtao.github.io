@@ -1,11 +1,11 @@
 {
   "config_url": "",
   "update": "Yes",
-  "new_version": "1.0.4",
-  "version_code": 4,
-  "apk_file_url": "https://raw.githubusercontent.com/android-zhaoyongtao/android-zhaoyongtao.github.io/master/update/queryprice1.0.4.apk",
-  "update_log": "1，增加商城上方快捷弹框。\r\n2，美化应用主题。\r\n3，增加收藏功能。\r\n4，减小安装包体积",
-  "target_size": "3.0M",
-  "new_md5":"913AB1342C34C431FFE6F5F8F579502D",
+  "new_version": "1.2.0",
+  "version_code": 5,
+  "apk_file_url": "https://raw.githubusercontent.com/android-zhaoyongtao/android-zhaoyongtao.github.io/master/update/queryprice1.2.0.apk",
+  "update_log": "1，重磅功能，增加优惠券搜索。\r\n2，美化应用主题。\r\n3，增加收藏功能。\r\n4，增加应用侧滑返回",
+  "target_size": "3.1M",
+  "new_md5":"FDD321C1C9D93D0CA2C361AAA580AE04",
   "constraint": false
 }
