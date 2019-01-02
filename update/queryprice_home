@@ -1,6 +1,6 @@
 {
 	"banner": [{
-		"is_show": true,
+		"is_show": false,
 		"item_id": "2324",
 		"pic": "https://ws4.sinaimg.cn/large/006tNbRwly1fympg2g416j31950tydj1.jpg",
 		"title": "分享邀请",
@@ -8,7 +8,7 @@
 		"url": "历史价APP可以对京东，天猫，淘宝，苏宁等各大电商商品的历史价格进行查询，还可以搜索优惠券，让你不再被蒙，不再被骗\n找准历史最低价,下载地址\nhttps://www.coolapk.com/apk/209945",
 		"type": 2
 	}, {
-		"is_show": true,
+		"is_show": false,
 		"item_id": "2324",
 		"pic": "https://ws4.sinaimg.cn/large/006tNbRwly1fympg2g416j31950tydj1.jpg",
 		"title": "分享邀请",
