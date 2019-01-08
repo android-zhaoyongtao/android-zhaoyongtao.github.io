@@ -2,8 +2,8 @@
 	"is_show": true,
 	"item_id": "2324",
 	"pic": "https://ws2.sinaimg.cn/large/006tNc79ly1fyzfnj9tfxj30tw0mddhn.jpg",
-	"title": "支付宝红包",
-	"content": "点击领取支付宝红包，金额随机最高99元，领到大红包的小伙伴赶紧使用哦！",
+	"title": "点击领取支付宝红包",
+	"content": "点击领取支付宝红包，金额随机最高99元，领到大红包的小伙伴赶紧使用哦！每天都可以领",
 	"url": "alipays://platformapi/startapp?saId=10000007&qrcode=复制本内容，在支付宝首页粘贴“533463462”领红包，领到大红包的小伙伴赶紧使用哦！",
 	"type": 0
 }
