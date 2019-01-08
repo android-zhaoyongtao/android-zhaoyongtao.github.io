@@ -1,11 +1,11 @@
 {
   "config_url": "",
   "update": "Yes",
-  "new_version": "1.2.1",
+  "new_version": "1.2.3",
   "version_code": 6,
-  "apk_file_url": "https://raw.githubusercontent.com/android-zhaoyongtao/android-zhaoyongtao.github.io/master/update/queryprice1.2.1.apk",
+  "apk_file_url": "https://raw.githubusercontent.com/android-zhaoyongtao/android-zhaoyongtao.github.io/master/update/queryprice.apk",
   "update_log": "1，重磅功能，增加优惠券搜索。\r\n2，美化应用主题。\r\n3，商城上弹框跳转的bug。\r\n4，增加应用侧滑返回",
   "target_size": "3.1M",
-  "new_md5":"EC8D3220289CAD70B27F00B301DB236C",
+  "new_md5":"9AA625C37D5290BB7CA112240C4FCCF7",
   "constraint": false
 }

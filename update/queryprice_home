@@ -19,10 +19,10 @@
 	"notice": {
 		"is_show": true,
 		"item_id": "2324",
-		"pic": "https://ws4.sinaimg.cn/large/006tNbRwly1fympg2g416j31950tydj1.jpg",
-		"title": "分享邀请",
-		"content": "感谢你对本APP的支持，如果您觉得好用，请帮我们分享给更多人，也可以分享到你加入的购物群之类。点这里或设置中点击分享即可，谢谢",
-		"url": "历史价APP可以对京东，天猫，淘宝，苏宁等各大电商商品的历史价格进行查询，还可以搜索优惠券，让你不再被蒙，不再被骗\n找准历史最低价,下载地址\nhttps://www.coolapk.com/apk/209945",
+		"pic": "https://ws2.sinaimg.cn/large/006tNc79ly1fyzfnj9tfxj30tw0mddhn.jpg",
+		"title": "支付宝红包",
+		"content": "点击领取支付宝红包，金额随机最高99元，领到大红包的小伙伴赶紧使用哦！",
+		"url": "alipays://platformapi/startapp?saId=10000007&qrcode=复制本内容，在支付宝首页粘贴“533463462”领红包，领到大红包的小伙伴赶紧使用哦！",
 		"type": 2
 	}
 }
