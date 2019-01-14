@@ -29,8 +29,9 @@
 	"baoyou": {
 		"is_show": true,
 		"title": "新车推荐 好车抢先看",
-		"desc": "新上好车 抢先看",
-		"all_text": "全部车型",
-		"img": "https://raw.githubusercontent.com/android-zhaoyongtao/android-zhaoyongtao.github.io/master/update/img/home_item_red.png"
+		"content": "新上好车 抢先看",
+		"go_text": "全部车型",
+		"url": "https://raw.githubusercontent.com/android-zhaoyongtao/android-zhaoyongtao.github.io/master/update/img/home_item_red.png",
+		"type": 2
 	}
 }
