@@ -1,4 +1,8 @@
 {
+	"configs" {
+		"query_his": "",
+		"compare_hots": ["华为mate20", "iPhone x", "iPhone xs max", "小米8", "小米电视4A", "液晶电视"]
+	},
 	"banner": [{
 		"is_show": false,
 		"item_id": "2324",
