@@ -32,13 +32,13 @@
 		"content": "好物包邮抢先看",
 		"go_text": "立即查看",
 		"pic": "https://raw.githubusercontent.com/android-zhaoyongtao/android-zhaoyongtao.github.io/master/update/img/home_item_red.png",
-		"type": 1
+		"type": 6
 	}, {
 		"is_show": true,
 		"title": "全平台比价",
 		"content": "京东、天猫、淘宝、苏宁、国美，看看哪里更便宜",
 		"go_text": "立即使用",
 		"pic": "https://raw.githubusercontent.com/android-zhaoyongtao/android-zhaoyongtao.github.io/master/update/img/home_item_yellow.jpeg",
-		"type": 2
+		"type": 7
 	}]
 }
