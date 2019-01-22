@@ -1,5 +1,9 @@
 {
 	"configs": {
+		"offset_his": {
+			"field": 2,
+			"amount": 1
+		},
 		"query_his": "",
 		"compare_hots": ["华为mate20", "iPhone x", "iPhone xs max", "小米8", "小米电视4A", "液晶电视"]
 	},
