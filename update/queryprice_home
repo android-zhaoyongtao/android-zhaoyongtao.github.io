@@ -5,7 +5,7 @@
 			"amount": 1
 		},
 		"query_his": "",
-		"compare_hots": ["华为mate20", "iPhone x", "iPhone xs max", "小米8", "小米电视4A", "液晶电视"]
+		"compare_hots": ["华为mate20", "小米8", "iPhone x", "iPhone xs max", "小米电视4A", "液晶电视"]
 	},
 	"banner": [{
 		"is_show": false,
@@ -39,14 +39,14 @@
 		"title": "9.9包邮",
 		"content": "好物包邮抢先看",
 		"go_text": "立即查看",
-		"pic": "https://raw.githubusercontent.com/android-zhaoyongtao/android-zhaoyongtao.github.io/master/update/img/home_item_red.png",
+		"pic": "https://ws3.sinaimg.cn/large/006tNc79ly1fzfian6x3yj30j6046wgc.jpg",
 		"type": 6
 	}, {
 		"is_show": true,
 		"title": "全平台比价",
 		"content": "京东、天猫、淘宝、苏宁、国美，看看哪里更便宜",
 		"go_text": "立即使用",
-		"pic": "https://raw.githubusercontent.com/android-zhaoyongtao/android-zhaoyongtao.github.io/master/update/img/home_item_yellow.jpeg",
+		"pic": "https://ws2.sinaimg.cn/large/006tNc79ly1fzfia3xsjdj30j7046aal.jpg",
 		"type": 7
 	}]
 }
