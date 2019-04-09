@@ -1,10 +1,10 @@
 {
   "update": "Yes",
-  "new_version": "1.3.0",
-  "version_code": 7,
+  "new_version": "1.3.1",
+  "version_code": 8,
   "apk_file_url": "https://raw.githubusercontent.com/android-zhaoyongtao/android-zhaoyongtao.github.io/master/update/queryprice.apk",
-  "update_log": "1，增加京东、天猫、苏宁、国美多个平台比价。\r\n2，改名为QQ比价。\r\n3，历史价格增加30天、60天等时间筛选。\r\n4，增快商城上弹框时查询最底价速度",
+  "update_log": "1，解决查询商品历史价格崩溃问题,必须升级才能使用。\r\n2，增加详情页往各大商城购买页的快捷跳转。\r\n3，欢迎大家在设置中加入反馈交流群,及时反馈问题,提出宝贵意见。",
   "target_size": "3.2M",
-  "new_md5":"59FD5E8607088362382A392143957228",
-  "constraint": false
+  "new_md5":"7EBE0ADF7C54D3F8711C658671EC1B37",
+  "constraint": true
 }
