@@ -4,15 +4,15 @@
 		"code": 0,
 		"msg": "",
 		"info": [{
-                 	"config1": 0
-                 	"config2": 0
-                 	"config3": 0
-                 	"config4": 0
-                 	"config5": 0
-                 	"config6": 0
-                 	"config7": 0
-                 	"config8": 0
-                 	"config9": 0
+                 	"config1": 0,
+                 	"config2": 0,
+                 	"config3": 0,
+                 	"config4": 0,
+                 	"config5": 0,
+                 	"config6": 0,
+                 	"config7": 0,
+                 	"config8": 0,
+                 	"config9": 0,
                  	"config10": 0
                  }]
 	},
