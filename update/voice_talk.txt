@@ -1,0 +1,10 @@
+{
+  "update": "Yes",
+  "new_version": "1.0.0",
+  "version_code": 1,
+  "apk_file_url": "https://raw.githubusercontent.com/android-zhaoyongtao/android-zhaoyongtao.github.io/master/update/voice_talk.apk",
+  "update_log": "1，解决查询商品历史价格崩溃问题,必须升级才能使用。\r\n2，增加详情页往各大商城购买页的快捷跳转。\r\n3，欢迎大家在设置中加入反馈交流群,及时反馈问题,提出宝贵意见。",
+  "target_size": "32M",
+  "new_md5":"45406D1176E10E23DC205797E0228376",
+  "constraint": false
+}
