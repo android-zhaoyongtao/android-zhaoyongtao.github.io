@@ -5,31 +5,31 @@
 			"amount": 1
 		},
 		"query_his": "",
-		"compare_hots": ["华为mate20", "小米8", "iPhone x", "iPhone xs max", "小米电视4A", "液晶电视"]
+		"compare_hots": ["iPhone11", "华为mate30pro", "小米电视", "格力空调", "iPhone xs max", "三星Galaxy Note10"]
 	},
 	"banner": [{
-		"is_show": false,
+		"is_show": true,
 		"item_id": "2324",
-		"pic": "https://ws4.sinaimg.cn/large/006tNbRwly1fympg2g416j31950tydj1.jpg",
-		"title": "分享邀请",
-		"content": "感谢你对本APP的支持，如果您觉得好用，请帮我们分享给更多人，也可以分享到你加入的购物群之类。点这里或设置中点击分享即可，谢谢",
-		"url": "历史价APP可以对京东，天猫，淘宝，苏宁等各大电商商品的历史价格进行查询，还可以搜索优惠券，让你不再被蒙，不再被骗\n找准历史最低价,下载地址\nhttps://www.coolapk.com/apk/209945",
-		"type": 2
+		"pic": "https://tva1.sinaimg.cn/large/006y8mN6ly1g8wi2g2ltij312w0pbn43.jpg",
+		"title": "挑微信的",
+		"content": "大家知道，赛特奥莱的Adidas、Nike专卖店经常会有换季折扣价商品，价格美丽。为了给朋友和家人提供一个便利的购买渠道，利用身边优势，可以从店里直接代购，我们有小伙伴北京和天津各地奥莱专门跑店，东西都是专卖店里的正品，大家可放心。点击添加微信了解",
+		"url": "https://tva1.sinaimg.cn/large/006y8mN6ly1g8wh352flyj30iq0ow411.jpg",
+		"type": 6
 	}, {
-		"is_show": false,
+		"is_show": true,
 		"item_id": "2324",
-		"pic": "https://ws4.sinaimg.cn/large/006tNbRwly1fympg2g416j31950tydj1.jpg",
-		"title": "分享邀请",
-		"content": "感谢你对本APP的支持，如果您觉得好用，请帮我们分享给更多人，也可以分享到你加入的购物群之类。点这里或设置中点击分享即可，谢谢",
-		"url": "QQ比价APP可以对京东，天猫，淘宝，苏宁等各大电商商品的历史价格进行查询，还可以搜索优惠券，让你不再被蒙，不再被骗\n找准历史最低价,下载地址\nhttps://www.coolapk.com/apk/209945",
-		"type": 2
+		"pic": "https://tva1.sinaimg.cn/large/006y8mN6ly1g8wi2ynnn5j312w0pcgsw.jpg",
+		"title": "跳大图的",
+		"content": "大家知道，赛特奥莱的Adidas、Nike专卖店经常会有换季折扣价商品，价格美丽。为了给朋友和家人提供一个便利的购买渠道，利用身边优势，可以从店里直接代购，我们有小伙伴北京和天津各地奥莱专门跑店，东西都是专卖店里的正品，大家可放心。点击添加微信了解",
+		"url": "https://tva1.sinaimg.cn/large/006y8mN6ly1g8wh352flyj30iq0ow411.jpg",
+		"type": 5
 	}],
 	"notice": {
 		"is_show": true,
 		"item_id": "2324",
 		"pic": "https://ws4.sinaimg.cn/large/006tNbRwly1fympg2g416j31950tydj1.jpg",
-		"title": "分享本应用",
-		"content": "6.18要来啦，感谢你对本APP的支持，请帮我们分享给更多人使用，也可以分享到你加入的购物群之类。让更多人使用上它吧，谢谢",
+		"title": "分享QQ比价",
+		"content": "感谢你对本APP的支持，请帮我分享给更多人使用，让更多人用上它吧，查询历史低价，拒绝套路",
 		"url": "QQ比价APP可以对京东，天猫，淘宝，苏宁等各大电商商品的历史价格进行查询，识别虚假优惠，还可以搜索优惠券，让你不再被蒙，不再被骗\n找准历史最低价,下载地址\nhttps://www.coolapk.com/apk/209945",
 		"type": 2
 	},
