@@ -2,7 +2,7 @@
   "update": "Yes",
   "new_version": "1.0.1",
   "version_code": 3,
-  "apk_file_url": "https://raw.githubusercontent.com/android-zhaoyongtao/android-zhaoyongtao.github.io/master/update/voicetalk.apk",
+  "apk_file_url": "http://sl.21bmw.com/public/app/shengliao.apk",
   "update_log": "1，开放寻觅功能，在线聊天更方便了。",
   "target_size": "33.7M",
   "new_md5":"AE2E7514B145A27759E1D142A0B4F05A",
