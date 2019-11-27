@@ -10,19 +10,27 @@
 	"banner": [{
 		"is_show": true,
 		"item_id": "2324",
-		"pic": "https://tva1.sinaimg.cn/large/006y8mN6ly1g8wi2g2ltij312w0pbn43.jpg",
-		"title": "挑微信的",
-		"content": "大家知道，赛特奥莱的Adidas、Nike专卖店经常会有换季折扣价商品，价格美丽。为了给朋友和家人提供一个便利的购买渠道，利用身边优势，可以从店里直接代购，我们有小伙伴北京和天津各地奥莱专门跑店，东西都是专卖店里的正品，大家可放心。点击添加微信了解",
-		"url": "https://tva1.sinaimg.cn/large/006y8mN6ly1g8wh352flyj30iq0ow411.jpg",
+		"pic": "https://tva1.sinaimg.cn/large/006y8mN6ly1g9cijc1ensj30f5093q37.jpg",
+		"title": "代购1",
+		"content": "代购Adidas、Nike换季折扣价商品，价格美丽，源自赛特奥莱的正品专卖店。点击添加微信747971267了解",
+		"url": "https://tva1.sinaimg.cn/large/006y8mN6ly1g9cmirrbqjj30iq0owq5c.jpg",
 		"type": 6
 	}, {
 		"is_show": true,
 		"item_id": "2324",
-		"pic": "https://tva1.sinaimg.cn/large/006y8mN6ly1g8wi2ynnn5j312w0pcgsw.jpg",
-		"title": "跳大图的",
-		"content": "大家知道，赛特奥莱的Adidas、Nike专卖店经常会有换季折扣价商品，价格美丽。为了给朋友和家人提供一个便利的购买渠道，利用身边优势，可以从店里直接代购，我们有小伙伴北京和天津各地奥莱专门跑店，东西都是专卖店里的正品，大家可放心。点击添加微信了解",
-		"url": "https://tva1.sinaimg.cn/large/006y8mN6ly1g8wh352flyj30iq0ow411.jpg",
+		"pic": "https://tva1.sinaimg.cn/large/006y8mN6ly1g9cik6h2gcj30fa08qjrb.jpg",
+		"title": "代购2",
+		"content": "代购Adidas、Nike换季折扣价商品，价格美丽，源自赛特奥莱的正品专卖店。点击添加微信747971267了解",
+		"url": "https://tva1.sinaimg.cn/large/006y8mN6ly1g9cmirrbqjj30iq0owq5c.jpg",
 		"type": 5
+	}, {
+		"is_show": true,
+		"item_id": "2324",
+		"pic": "https://tva1.sinaimg.cn/large/006y8mN6ly1g9cikcdj4cj30h40al755.jpg",
+		"title": "代购3",
+		"content": "代购Adidas、Nike换季折扣价商品，价格美丽，源自赛特奥莱的正品专卖店。点击添加微信747971267了解",
+		"url": "https://tva1.sinaimg.cn/large/006y8mN6ly1g9cmirrbqjj30iq0owq5c.jpg",
+		"type": 6
 	}],
 	"notice": {
 		"is_show": true,
