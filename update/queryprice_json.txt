@@ -5,6 +5,6 @@
   "apk_file_url": "https://raw.githubusercontent.com/android-zhaoyongtao/android-zhaoyongtao.github.io/master/update/queryprice.apk",
   "update_log": "1，商品历史价格查询。\r\n2，同一商品各商城价格对比。\r\n3，商城复制链接后直接展示最商品低价。\r\n4，欢迎大家在设置中加入反馈交流群,及时反馈问题,提出宝贵意见。",
   "target_size": "4M",
-  "new_md5":"019BA6FEC1FF4DEB676D10DF0332A283",
+  "new_md5":"B16A23C796C8EFE96723FF47FF8693EA",
   "constraint": false
 }
