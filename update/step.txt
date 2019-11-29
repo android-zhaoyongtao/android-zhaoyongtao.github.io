@@ -3,3 +3,5 @@
 3,新包改名为queryprice1.0.0.apk  数字为版本号  并放入本目录,文件名修改对应json中apk_file_url字段
 4,json中更新说明,是否强制更新,自己决定
 切记,放新包后再改json,或者同时上传
+
+github 地址https://raw.githubusercontent.com/android-zhaoyongtao/android-zhaoyongtao.github.io/master/update/queryprice.apk
