@@ -14,13 +14,13 @@
 	"banner": [{
 		"is_show": true,
 		"item_id": "2324",
-		"pic": "https://tva1.sinaimg.cn/large/006y8mN6ly1g9cijc1ensj30f5093q37.jpg",
+		"pic": "https://ws4.sinaimg.cn/large/006tNbRwly1fympg2g416j31950tydj1.jpg",
 		"title": "代购1",
 		"content": "代购Adidas、Nike换季折扣价商品，价格美丽，源自赛特奥莱的正品专卖店。点击添加微信747971267了解",
 		"url": "https://tva1.sinaimg.cn/large/006y8mN6ly1g9cmirrbqjj30iq0owq5c.jpg",
 		"type": 6
 	}, {
-		"is_show": true,
+		"is_show": false,
 		"item_id": "2324",
 		"pic": "https://tva1.sinaimg.cn/large/006y8mN6ly1g9cik6h2gcj30fa08qjrb.jpg",
 		"title": "代购2",
@@ -28,7 +28,7 @@
 		"url": "https://tva1.sinaimg.cn/large/006y8mN6ly1g9cmirrbqjj30iq0owq5c.jpg",
 		"type": 6
 	}, {
-		"is_show": true,
+		"is_show": false,
 		"item_id": "2324",
 		"pic": "https://tva1.sinaimg.cn/large/006y8mN6ly1g9cikcdj4cj30h40al755.jpg",
 		"title": "代购3",
@@ -36,7 +36,7 @@
 		"url": "https://tva1.sinaimg.cn/large/006y8mN6ly1g9cmirrbqjj30iq0owq5c.jpg",
 		"type": 6
 	}, {
-		"is_show": true,
+		"is_show": false,
 		"item_id": "2324",
 		"pic": "https://tva1.sinaimg.cn/large/006y8mN6ly1g9cnfkickyj30kg0du0ui.jpg",
 		"title": "代购3",
@@ -44,7 +44,7 @@
 		"url": "https://tva1.sinaimg.cn/large/006y8mN6ly1g9cmirrbqjj30iq0owq5c.jpg",
 		"type": 6
 	}, {
-		"is_show": true,
+		"is_show": false,
 		"item_id": "2324",
 		"pic": "https://tva1.sinaimg.cn/large/006y8mN6ly1g9cnfjxd86j30xc0m8adg.jpg",
 		"title": "代购3",
@@ -52,7 +52,7 @@
 		"url": "https://tva1.sinaimg.cn/large/006y8mN6ly1g9cmirrbqjj30iq0owq5c.jpg",
 		"type": 6
 	}, {
-		"is_show": true,
+		"is_show": false,
 		"item_id": "2324",
 		"pic": "https://tva1.sinaimg.cn/large/006y8mN6ly1g9cnfjl3iej308m08mdh0.jpg",
 		"title": "代购3",
@@ -60,7 +60,7 @@
 		"url": "https://tva1.sinaimg.cn/large/006y8mN6ly1g9cmirrbqjj30iq0owq5c.jpg",
 		"type": 6
 	}, {
-		"is_show": true,
+		"is_show": false,
 		"item_id": "2324",
 		"pic": "https://tva1.sinaimg.cn/large/006y8mN6ly1g9cnfjr557j30dw099dg9.jpg",
 		"title": "代购3",
@@ -68,7 +68,7 @@
 		"url": "https://tva1.sinaimg.cn/large/006y8mN6ly1g9cmirrbqjj30iq0owq5c.jpg",
 		"type": 6
 	}, {
-		"is_show": true,
+		"is_show": false,
 		"item_id": "2324",
 		"pic": "https://tva1.sinaimg.cn/large/006y8mN6ly1g9cnfjnnuej30cu0c7glt.jpg",
 		"title": "代购3",
@@ -76,7 +76,7 @@
 		"url": "https://tva1.sinaimg.cn/large/006y8mN6ly1g9cmirrbqjj30iq0owq5c.jpg",
 		"type": 6
 	}, {
-		"is_show": true,
+		"is_show": false,
 		"item_id": "2324",
 		"pic": "https://tva1.sinaimg.cn/large/006y8mN6ly1g9cnfjt6uzj30g40argm6.jpg",
 		"title": "代购3",
@@ -84,7 +84,7 @@
 		"url": "https://tva1.sinaimg.cn/large/006y8mN6ly1g9cmirrbqjj30iq0owq5c.jpg",
 		"type": 6
 	}, {
-		"is_show": true,
+		"is_show": false,
 		"item_id": "2324",
 		"pic": "https://tva1.sinaimg.cn/large/006y8mN6ly1g9cnf5f19dj30dw099whz.jpg",
 		"title": "代购3",
@@ -92,7 +92,7 @@
 		"url": "https://tva1.sinaimg.cn/large/006y8mN6ly1g9cmirrbqjj30iq0owq5c.jpg",
 		"type": 6
 	}, {
-		"is_show": true,
+		"is_show": false,
 		"item_id": "2324",
 		"pic": "https://tva1.sinaimg.cn/large/006y8mN6ly1g9cnf593chj30ia09lah0.jpg",
 		"title": "代购3",
