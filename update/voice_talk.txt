@@ -1,10 +1,10 @@
 {
   "update": "Yes",
   "new_version": "1.1",
-  "version_code": 4,
+  "version_code": 5,
   "apk_file_url": "http://sl.21bmw.com/public/app/shengliao.apk",
-  "update_log": "1，修复BUG，优化版本稳定性。\r\n2，加入按键说话功能。\r\n3，完善了搜索功能。",
+  "update_log": "1，修复BUG，优化版本稳定性。\r\n2，增加动态删除功能。",
   "target_size": "33.7M",
-  "new_md5":"6AEFC700799B59E759983AAF07178C7B",
+  "new_md5":"930454F8160DBC578F499D51E671B741",
   "constraint": true
 }
