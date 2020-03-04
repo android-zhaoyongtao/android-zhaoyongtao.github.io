@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      2018-09-14-ArrayList源码分析
+title:      ArrayList源码分析
 subtitle:   基于jdk-1.8
 date:       2018-09-14
 author:     ZYT
