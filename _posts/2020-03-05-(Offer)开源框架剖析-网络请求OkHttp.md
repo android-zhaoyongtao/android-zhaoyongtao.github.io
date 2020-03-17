@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      (Offer)开源框架剖析-网络请求
-subtitle:   okhttp、retrofit
+title:      (Offer)开源框架剖析-网络请求OkHttp
+subtitle:   okhttp
 date:       2020-03-5
 author:     ZYT
 header-img: img/post-bg-offer.jpeg
@@ -12,15 +12,11 @@ tags:
     - 网络请求
     - 开源框架剖析
     - okhttp
-    - retrofit
 ---
 
-# 开源框架剖析-网络请求
+# 开源框架剖析-网络请求OkHttp
 
-
-本次剖析的主要框架有：
-## Okhttp
-### 流程
+### 使用流程
 ```
     OkHttpClient client = new OkHttpClient.Builder().build();
     Request request = new Request.Builder().build();
