@@ -16,6 +16,8 @@ tags:
 
 # 开源框架剖析-网络请求Retrofit
 
+### 简单介绍下使用原理
+首先，通过Builder创建Retrofit对象，在create方法中，通过JDK动态代理的方式，生成实现类，在调用接口方法时，会触发InvocationHandler的invoke方法，将接口的空方法转换成ServiceMethid, 然后生成okhttp请求，通过callAdapterFactory找到对应的执行器，比如RxJava2CallAdapterFactory，最后通过ConverterFactory将返回数据解析成JavaBena，使用者只需要关心请求参数，内部实现由retrofit封装完成，底层请求还是基于okhttp实现的。
 ### 使用流程
 ```
    public interface MyInterface {
@@ -70,18 +72,25 @@ tags:
 ```
 public final class Retrofit {
   //用于记录请求RequestApi中某个请求方法对应的处理方式
+  //ServiceMethod是核心处理类，解析接口中定义的请求方法参数和注解
   private final Map<Method, ServiceMethod> serviceMethodCache = new LinkedHashMap<>();
-  //okhttp的请求调用Factory
+  
+  //生产Call的工厂，这里的Call是okhttp包下面的Call，CallFactory默认就是OkHttpClien
   private final okhttp3.Call.Factory callFactory;
+  
   //封装的基础请求url，具体的请求就是将参数附加在其上得到具体的api地址
   private final HttpUrl baseUrl;
-  //响应数据解析器列表
+  
+  //响应数据解析器列表。数据解析器Converter，将response通过converterFactory转换成对应的JavaBean数据形式，常见解析器有，GsonConverterFactory，FastJsonConverterFactory，当然也有xml的。
   private final List<Converter.Factory> converterFactories;
-  //请求调用转换器列表
+  
+  //请求调用转换器列表。通过calladapter将原始Call进行封装，找到对应的执行器。如rxjavaCallFactory对应的Observable，转换形式Call<T> --> Observable<T>
   private final List<CallAdapter.Factory> adapterFactories;
-  //用于响应后的回调执行，默认是将响应post到主线程处理
+  
+  //主线程执行器，返回结果在UI线程执行
   private final Executor callbackExecutor;
-  //是否需要立即生成请求方法对应的处理对象，如果是，在create创建接口时就会生成一系列的ServiceMethod对象
+  
+  //是否需要立即生成请求方法对应的处理对象，也就是将接口类中的方法全部转换成ServiceMethod，如果是，在create创建接口时就会生成一系列的ServiceMethod对象
   private final boolean validateEagerly;
   
   public static final class Builder {
@@ -409,15 +418,6 @@ final class GsonResponseBodyConverter<T> implements Converter<ResponseBody, T> {
   }
 }
 ```
-
-### 核心类
-1， ParameterHandler
-
-2， ServiceMethod
-
-3， OkHttp发送网络请求
-
-5， converter
 
 ### 使用到的设计模式
 
