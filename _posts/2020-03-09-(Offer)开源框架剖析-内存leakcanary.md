@@ -68,6 +68,8 @@ OOM，程序崩溃
     
     解决办法：将WebView放在一个单独进程，当不再使用时，killProgress杀死进程
     
+6，动画导致的内存泄露
+
 ### LeakCanary原理
 
 1，Activity Destory之后将它放在一个WeakReference
@@ -188,13 +190,13 @@ public final class HeapAnalyzerService extends IntentService
         AbstractAnalysisResultService.sendResultToListener(this, listenerClassName, heapDump, result);
     }
 ```
-checkForLeak方法，是最重要的一个方法
+4，checkForLeak方法，是最重要的一个方法，主要做以下操作
 
-1，解析hprof转为Snapshot内存快照
-
-2，优化gcroots
-
-3，找出泄露的对象findLeakingReference/找出泄露对象的最短路径findLeakTrace
+    1），解析hprof转为Snapshot内存快照
+    
+    2），优化gcroots
+    
+    3），找出泄露的对象findLeakingReference/找出泄露对象的最短路径findLeakTrace
 ```
 HeapAnalyzer
     public AnalysisResult checkForLeak(File heapDumpFile, String referenceKey) {
