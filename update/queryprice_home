@@ -6,6 +6,7 @@
 		},
 		"app_config": {
 			"download_url": "https://www.coolapk.com/apk/209945",
+			"no_record_clip": 0,
             "share_text": "[QQ比价]可以对京东，天猫，淘宝，苏宁等的商品历史价格进行查询，识别虚假优惠，还可以搜索优惠券，找准历史最低价，下载地址\nhttps://www.coolapk.com/apk/209945"
 		},
 		"query_his": "",

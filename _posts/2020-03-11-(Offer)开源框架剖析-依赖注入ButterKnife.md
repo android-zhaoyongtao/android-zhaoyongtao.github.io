@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      (Offer)开源框架剖析-依赖注入ButterKnife
+title:      开源框架剖析-依赖注入ButterKnife
 subtitle:   
 date:       2020-03-11
 author:     ZYT
@@ -31,7 +31,7 @@ tags:
 
 ### 工作原理
 
-1，在编译的时候扫描注解，生成java代码。（java代码是调用squere的javapoet库生成的）
+1，在编译的时候扫描注解，生成java代码。（java代码是调用square的javapoet库生成的）
     ButterKnifeProcessor
     
 2，调用ButterKnife.bind(this);方法的时候，将ID与对应的上下文绑定在一起

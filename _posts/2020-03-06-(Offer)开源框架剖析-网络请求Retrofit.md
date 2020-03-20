@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      (Offer)开源框架剖析-网络请求Retrofit
+title:      开源框架剖析-网络请求Retrofit
 subtitle:   它以精妙的设计让我们能以轻松简洁的方式进行网络数据的请求
 date:       2020-03-6
 author:     ZYT
