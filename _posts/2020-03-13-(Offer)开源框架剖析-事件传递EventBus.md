@@ -19,7 +19,7 @@ tags:
 
 ### EventBus事件流程
 ![](https://tva1.sinaimg.cn/large/00831rSTly1gd0emu4epzj31qc0reth9.jpg)
-###### 三要素：
+### EventBus三要素：
 1，Event：事件
 
 2，Subscriber：事件的订阅者 

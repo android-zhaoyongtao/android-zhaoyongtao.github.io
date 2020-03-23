@@ -21,7 +21,7 @@ tags:
 
 主要用到的技术有自定义注解、注解处理器APT（Annotation Processing Tool）、
 
-### APT
+### APT annotationProcessor
 
 1，生命注解的生命周期为CLASS
 
@@ -31,7 +31,7 @@ tags:
 
 ### 工作原理
 
-1，在编译的时候扫描注解，生成java代码。（java代码是调用square的javapoet库生成的）
+1，在编译的时候扫描注解，生成java代码。（java代码是调用square的代码处理库javapoet生成的）
     ButterKnifeProcessor
     
 2，调用ButterKnife.bind(this);方法的时候，将ID与对应的上下文绑定在一起
