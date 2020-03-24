@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      UI卡顿优化blockcanary
+title:      开源框架剖析-UI卡顿优化blockcanary
 subtitle:   巧用handler.dispatchMessage实现
 date:       2020-03-11
 author:     ZYT
