@@ -154,7 +154,7 @@ get()方法就是一个DoubleCheck的单例模式。但他的单例创建是通�
 
 与前期版本不同的是Picasso需要的Context是通过PicassoProvider的context获取的，省掉了手动初始化。
 
-### Glide.load()方法分析
+### Picasso.load()方法分析
 
 最主要的就是创建了RequestCreator对象。Request.Builder能配置更多的参数.
 在into之前都是对请求的描述，设置各种属性。然后生成了Request。
@@ -172,7 +172,7 @@ RequestCreator
 
 ```
 
-### Glide.into()方法分析
+### Picasso.into()方法分析
 ```
 class RequestCreator
         public void into(ImageView target, Callback callback) {
@@ -184,7 +184,7 @@ class RequestCreator
             picasso.enqueueAndSubmit(action);
         }
 ```
-最后提交的是一个Action，Action也是一个抽象类，会根据我们不同的请求生成不同的action子类，他包含了请求信息，回调接口，picasso的实例。如果是一次要加载多个图片，那么会产生多个request和多个citon。
+最后提交的是一个Action，Action也是一个抽象类，会根据我们不同的请求生成不同的action子类，他包含了请求信息，回调接口，picasso的实例。如果是一次要加载多个图片，那么会产生多个request和多个Aciton。
 ```
 class Picasso
         void enqueueAndSubmit(Action action) {
