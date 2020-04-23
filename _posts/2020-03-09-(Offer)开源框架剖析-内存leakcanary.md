@@ -70,6 +70,8 @@ OOM，程序崩溃
     
 6，动画导致的内存泄露
 
+6，集合对象未及时清理导致的内存泄露
+
 ### LeakCanary原理
 
 1，Activity Destory之后将它放在一个WeakReference
@@ -115,11 +117,14 @@ ActivityRefWatcher
 RefWatcher
     public void watch(Object watchedReference, String referenceName) {
         ...
+        String key = UUID.randomUUID().toString();
+        retainedKeys.add(key);
         final KeyedWeakReference reference =//这是一个弱引用
             new KeyedWeakReference(watchedReference, key, referenceName, queue);
         ensureGoneAsync(watchStartNanoTime, reference);
     } 
     
+    //通过addIdleHandler获取消息闲时时机，默认延迟5秒后回调此runnable
     private void ensureGoneAsync(final long watchStartNanoTime, final KeyedWeakReference reference) {
         watchExecutor.execute(new Retryable() {
               @Override public Retryable.Result run() {
@@ -128,27 +133,27 @@ RefWatcher
         });
     }
     
-    //切换到子线程了
+    //5秒延时之后的逻辑
     Retryable.Result ensureGone(final KeyedWeakReference reference, final long watchStartNanoTime) {
         long gcStartNanoTime = System.nanoTime();
         long watchDurationMs = NANOSECONDS.toMillis(gcStartNanoTime - watchStartNanoTime);
     
-        removeWeaklyReachableReferences();
+        removeWeaklyReachableReferences();//移除没有泄露的reference
     
         if (debuggerControl.isDebuggerAttached()) {
           // The debugger can create false leaks.
           return RETRY;
         }
-        if (gone(reference)) {
+        if (gone(reference)) {//通过比对retainedKeys和reference判断有没有泄露
           return DONE;
         }
-        gcTrigger.runGc();
+        gcTrigger.runGc();//再给一次GC机会
         removeWeaklyReachableReferences();
-        if (!gone(reference)) {//GC后还是没被回收
+        if (!gone(reference)) {//GC后还是没被回收，那就是有泄露了
           long startDumpHeap = System.nanoTime();
           long gcDurationMs = NANOSECONDS.toMillis(startDumpHeap - gcStartNanoTime);
     
-          File heapDumpFile = heapDumper.dumpHeap();
+          File heapDumpFile = heapDumper.dumpHeap();//dump出hprof文件
           if (heapDumpFile == RETRY_LATER) {
             // Could not dump the heap.
             return RETRY;
@@ -161,8 +166,22 @@ RefWatcher
         return DONE;
   }
   
+  private boolean gone(KeyedWeakReference reference) {
+    return !retainedKeys.contains(reference.key);
+  }
+
+  private void removeWeaklyReachableReferences() {
+    // WeakReferences are enqueued as soon as the object to which they point to becomes weakly
+    // reachable. This is before finalization or garbage collection has actually happened.
+    KeyedWeakReference ref;
+    while ((ref = (KeyedWeakReference) queue.poll()) != null) {
+      retainedKeys.remove(ref.key);
+    }
+  }
+  
+  
 ServiceHeapDumpListener
-    public void analyze(HeapDump heapDump) {
+    public void analyze(HeapDump heapDump) {//开启一个IntentService去分析
         HeapAnalyzerService.runAnalysis(context, heapDump, listenerServiceClass);
     }
     
@@ -190,7 +209,7 @@ public final class HeapAnalyzerService extends IntentService
         AbstractAnalysisResultService.sendResultToListener(this, listenerClassName, heapDump, result);
     }
 ```
-4，checkForLeak方法，是最重要的一个方法，主要做以下操作
+4，HeapAnalyzer.checkForLeak方法，是最重要的一个方法，主要做以下操作。用到了HaHa库去分析内存泄露
 
     1），解析hprof转为Snapshot内存快照
     
@@ -228,4 +247,6 @@ HeapAnalyzer
         }
     }
 ```
+
+5，最后调用DisplayLeakService（`extends AbstractAnalysisResultService`）发送通知
 
