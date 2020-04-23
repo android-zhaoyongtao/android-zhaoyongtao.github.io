@@ -5,15 +5,15 @@
 		"msg": "",
 		"info": [{
                  	"config1": 1,
-                 	"config2": 0,
-                 	"config3": 0,
-                 	"config4": 0,
-                 	"config5": 0,
-                 	"config6": 0,
-                 	"config7": 0,
-                 	"config8": 0,
-                 	"config9": 0,
-                 	"config10": 0
+                 	"config2": 1,
+                 	"config3": 1,
+                 	"config4": 1,
+                 	"config5": 1,
+                 	"config6": 1,
+                 	"config7": 1,
+                 	"config8": 1,
+                 	"config9": 1,
+                 	"config10": 1
                  }]
 	},
 	"msg": ""
