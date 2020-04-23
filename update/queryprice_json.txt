@@ -2,9 +2,9 @@
   "update": "Yes",
   "new_version": "1.3.5",
   "version_code": 11,
-  "apk_file_url": "https://imgc.xin.com/o/20200422/1808/5ea017aa6ba44123438.apk",
+  "apk_file_url": "https://imgc.xin.com/o/20200423/1658/5ea158a909b00211714.apk",
   "update_log": "1，商品历史价格查询。\r\n2，同一商品各商城价格对比。\r\n3，支持京东,天猫,拼多多,苏宁,国美,亚马逊。\r\n4，欢迎大家在设置中加入反馈交流群,及时反馈问题,提出宝贵意见。",
   "target_size": "3.9M",
-  "new_md5":"D837457542926E061A38979632457374",
+  "new_md5":"7384B00E1292ADDF18D84FF7F16578E8",
   "constraint": false
 }
