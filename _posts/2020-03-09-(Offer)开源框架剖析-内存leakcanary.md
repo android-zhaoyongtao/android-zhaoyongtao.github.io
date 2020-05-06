@@ -112,7 +112,7 @@ ActivityRefWatcher
     }
     
 ```
-3，最后在线程池中区开始分析内存泄露
+3，最后延时5s后开始分析内存泄露
 ```
 RefWatcher
     public void watch(Object watchedReference, String referenceName) {
