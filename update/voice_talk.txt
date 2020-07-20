@@ -1,9 +1,9 @@
 {
   "update": "Yes",
   "new_version": "1.1",
-  "version_code": 6,
+  "version_code": 600,
   "apk_file_url": "http://sl.21bmw.com/public/app/shengliao.apk",
-  "update_log": "1，修复BUG，优化版本稳定性。\r\n2，增加动态删除功能。",
+  "update_log": "此项目是春渔科技公司雇佣我开发完成,\r\n开发款项本已约定19年底前结清,\r\n截止今日已逾期231天,\r\n经过催促30次仍未结款.\r\n请各位用户督促相关领导尽快结清工资.\r\n公司部分领导:\r\n杜春鱼15910532228,\r\n李东升13126633330",
   "target_size": "33.7M",
   "new_md5":"930454F8160DBC578F499D51E671B741",
   "constraint": true
